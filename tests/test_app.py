@@ -1,0 +1,6 @@
+
+from app import calculate_total
+
+
+def test_calculate_total():
+    assert calculate_total(150, 3) == 450
